@@ -29,3 +29,7 @@ services:
   speech:
     image: tmvdl/python:speech
     build: './src/speech'
+
+  opencv:
+    image: tmvdl/python:opencv
+    build: './src/opencv'
