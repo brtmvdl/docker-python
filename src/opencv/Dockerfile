@@ -1,3 +1,3 @@
-FROM python:3.8-alpine
+FROM python:3.8
 
-RUN python -m pip install opencv-contrib-python
+RUN pip install opencv-contrib-python
